@@ -3,6 +3,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:movies/constants/app_theme.dart';
+import 'package:movies/home_screen.dart';
 
 
 void main() {
@@ -18,6 +19,7 @@ class MoviesApp extends StatelessWidget {
       
       debugShowCheckedModeBanner: false,
       routes: {
+        HomeScreen.routName : (_) => HomeScreen(),
       },
       theme: AppTheme.lightTheme,
       themeMode: ThemeMode.light,

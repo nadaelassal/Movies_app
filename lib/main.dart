@@ -16,13 +16,13 @@ class MoviesApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
+    
       debugShowCheckedModeBanner: false,
       routes: {
         HomeScreen.routName : (_) => HomeScreen(),
       },
-      theme: AppTheme.lightTheme,
-      themeMode: ThemeMode.light,
+      theme: AppTheme.dark,
+      themeMode: ThemeMode.dark,
     );
   }
 }

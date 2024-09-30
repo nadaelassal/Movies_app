@@ -17,5 +17,6 @@ class AppTheme {
       unselectedItemColor:grey,
     ),
     scaffoldBackgroundColor: primary,
+
   );
 }
